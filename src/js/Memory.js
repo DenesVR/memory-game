@@ -32,7 +32,6 @@ export default class Memory {
     `
     );
     this._htmlRef = document.getElementById("grid");
-    //initiele html opbouwen (<div id="grid"></div>)
     this.startLevel();
   }
 

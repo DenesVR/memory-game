@@ -34,7 +34,6 @@ export default class Card {
   flip = () => {
     if (this._isFlipped) {
       this._isFlipped = false;
-      //_isFlipped terug false zetten
     } else {
       this._ref.classList.add('flipped');
       this._isFlipped = true;
